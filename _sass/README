@@ -1,0 +1,50 @@
+# Frise ARCSI (Work in Progress)
+
+Ce projet, initié par l'Association des Réservistes du Chiffre et de la Sécurité de l'Information, vise à établir une chronologie exhaustive de l'Histoire du chiffrement.
+
+Contributeurs / rédacteurs :
+- Jean-Marc Laloy
+- Jérôme Chappe
+- Maxime Alay-Eddine
+
+# Comment contribuer ?
+
+1) Cloner ce projet
+2) Rédiger les articles dans le dossier "_fiches" au format Markdown
+3) Tester en local le rendu
+4) Valider les modifications et les pusher sur votre repo GitHub
+5) Ouvrir une Pull-Request
+
+# Prérequis
+
+Ruby v2.4.0
+Bundler
+
+
+# Installation
+
+```
+bundle install
+bundle exec jekyll serve
+```
+
+# FAQ
+
+### Comment rédiger un article ?
+
+Un exemple est fourni dans le dossier "_aide".
+
+Le système de génération de pages est basé sur Jekyll, et utilise la syntaxe Markdown.
+
+### Comment convertir du Word en Markdown ?
+
+https://word-to-markdown.herokuapp.com/
+
+### Comment suggérer des modifications graphiques ou ergonomiques ?
+
+Créez un compte GitHub et ouvrez une "Issue" sur ce projet, décrivant votre suggestion.
+
+
+### C'est pas très beau !
+
+C'est normal, c'est encore au stade de démonstration pour le moment :D.

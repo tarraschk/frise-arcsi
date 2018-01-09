@@ -1,7 +1,7 @@
 ---
 ---
 
-@import 'bourbon'; // http://bourbon.io/
+@import 'bourbon/bourbon'; // http://bourbon.io/
 
 @import 'variables'; // colors, fonts etc...
 
@@ -301,15 +301,15 @@ Main Components
   @include MQ(M) {
 
     h2 {
-      font-size: 7rem;
+      //font-size: 7rem;
     }
 
     em {
-      font-size: 2rem;
+      //font-size: 2rem;
     }
 
     p {
-      font-size: 1.8rem;
+      //font-size: 1.8rem;
     }
   }
 
