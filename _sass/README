@@ -30,6 +30,12 @@ bundle exec jekyll serve
 
 # FAQ
 
+### Comment déployer le site ?
+
+Le déploiement est possible via une iframe sur https://tarraschk.github.io/frise-arcsi/ ou via le dossier "_site" généré par Jekyll.
+
+Ce dossier "_site" contient les données statiques du site avec l'ensemble des articles saisis.
+
 ### Comment rédiger un article ?
 
 Un exemple est fourni dans le dossier "_aide".
