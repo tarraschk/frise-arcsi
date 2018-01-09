@@ -1,5 +1,4 @@
 ---
-title:  "Enigma"
 year: 1919
 display_line: "Enigma"
 ---

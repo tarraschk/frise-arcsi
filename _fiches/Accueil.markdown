@@ -1,5 +1,4 @@
 ---
-title:  "Accueil"
 year: -1000000
 display_line: "Accueil"
 ---

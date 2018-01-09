@@ -1,5 +1,4 @@
 ---
-title:  "-1900"
 year: -1900
 display_line: "-1900"
 ---
