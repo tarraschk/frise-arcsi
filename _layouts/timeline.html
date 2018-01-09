@@ -1,0 +1,59 @@
+{% assign incr_var = 1 %}
+<!doctype html>
+<html lang="fr" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700,900|Fira+Sans:400,400italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+    <link rel="stylesheet" href="css/modest.css">
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+    <title>Horizontal Timeline | CodyHouse</title>
+</head>
+<body>
+<section class="cd-horizontal-timeline">
+    <div class="timeline">
+        <div class="events-wrapper">
+            <div class="events">
+                <ol>
+                    {% assign sorted = (site.fiches | sort: 'year') %}
+                    {% assign i = 1 %}
+                    {% for page in sorted %}
+                        <li><a href="#0" data-date="01/01/{{ i }}" class="{% if forloop.first %}selected{% endif %}">{{ page.display_line }}</a></li>
+                        {% assign i = i | plus: incr_var %}
+                    {% endfor %}
+                </ol>
+
+                <span class="filling-line" aria-hidden="true"></span>
+            </div> <!-- .events -->
+        </div> <!-- .events-wrapper -->
+
+        <ul class="cd-timeline-navigation">
+            <li><a href="#0" class="prev inactive">Prev</a></li>
+            <li><a href="#0" class="next">Next</a></li>
+        </ul> <!-- .cd-timeline-navigation -->
+    </div> <!-- .timeline -->
+
+    <div class="events-content">
+        <ol>
+            {% assign i = 1 %}
+            {% for page in sorted %}
+                <li class="{% if forloop.first %}selected{% endif %}" data-date="01/01/{{ i }}">
+                    <h2>{{ page.title }}</h2>
+                    {{ page.content }}
+                </li>
+            {% assign i = i | plus: incr_var %}
+            {% endfor %}
+        </ol>
+    </div> <!-- .events-content -->
+</section>
+
+<script src="js/jquery-2.1.4.js"></script>
+<script src="js/jquery.mobile.custom.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
