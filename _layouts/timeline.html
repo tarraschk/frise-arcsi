@@ -43,7 +43,6 @@
             {% assign i = 1 %}
             {% for page in sorted %}
                 <li class="{% if forloop.first %}selected{% endif %}" data-date="01/01/{{ i }}">
-                    <h2>{{ page.title }}</h2>
                     {{ page.content }}
                 </li>
             {% assign i = i | plus: incr_var %}
