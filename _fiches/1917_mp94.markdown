@@ -1,0 +1,11 @@
+---
+year: 1917
+display_line: "1917"
+---
+
+# 1917
+# MP-94 (US ARMY)
+
+Basé sur le principe du cylindre de Bazeries, ou cylindre de Jefferson
+
+![alt text](/img/1917/mp-94.png "MP-94")

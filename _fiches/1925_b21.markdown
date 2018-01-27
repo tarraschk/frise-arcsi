@@ -1,0 +1,12 @@
+---
+year: 1925
+display_line: "1925"
+---
+
+# 1925
+# B-21 (Boris Hagelin)
+
+Le suédois Boris Hagelin propose sa machine B-21 comme concurrente d’Enigma.
+Une version améliorée, la B-211 (photo), sera adoptée plus tard par l’armée française
+
+![alt text](/img/1925/B-211.png "B-21")

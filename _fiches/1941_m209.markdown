@@ -1,0 +1,10 @@
+---
+year: 1941
+display_line: "1941"
+---
+
+# 1941
+# M-209
+
+Les Etats-Unis  produisent la M-209  (ou CSP-1500), version améliorée de la C-36,  et l’utilisent comme matériel tactique.
+Pour leur communications stratégiques, ils mettent en service leur machine SIGABA, compatible avec la Typex.
