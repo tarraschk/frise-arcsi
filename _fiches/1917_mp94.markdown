@@ -8,4 +8,4 @@ display_line: "1917"
 
 Basé sur le principe du cylindre de Bazeries, ou cylindre de Jefferson
 
-![alt text](/img/1917/mp-94.png "MP-94")
+![alt text](/frise-arcsi/img/1917/mp-94.png "MP-94")

@@ -11,4 +11,4 @@ Carré de Vigenère.
 
 Autoclave.
 
-![alt text](/img/1523/Vigenere.jpg "Blaise de Vigenère")
+![alt text](/frise-arcsi/img/1523/Vigenere.jpg "Blaise de Vigenère")

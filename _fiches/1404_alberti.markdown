@@ -25,4 +25,4 @@ ALBERTI a posé les principes qui seront utilisés jusqu'à nos jours par la plu
 Cet homme de génie meurt à Rome en 1472.
 
 
-![alt text](/img/1404/alberti_disque.jpg "Disque d'Alberti")
+![alt text](/frise-arcsi/img/1404/alberti_disque.jpg "Disque d'Alberti")

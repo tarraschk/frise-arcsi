@@ -7,4 +7,4 @@ display_line: "1936"
 # C-36
 Hagelin sort de ses usines la machine C-36 , développée au départ pour assurer les communications tactiques de l’armée française.
 
-![alt text](/img/1936/C-36.png "C-36")
+![alt text](/frise-arcsi/img/1936/C-36.png "C-36")

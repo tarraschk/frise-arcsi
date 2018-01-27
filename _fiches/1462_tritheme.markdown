@@ -14,4 +14,4 @@ TRITHEME s'intéresse aussi aux "procédés pour écrire d'une façon secrète e
 
 Devant l'incompréhension manifestée vis-à-vis de Sténographie,  il rédige de 1505 à 1508, un autre ouvrage qu'il intitule Polygraphie. Cet ouvrage est imprimée en 1518 à Oppenheim.
 
-![alt text](/img/1462/Trithème.jpg "Trithème Jean")
+![alt text](/frise-arcsi/img/1462/Trithème.jpg "Trithème Jean")
